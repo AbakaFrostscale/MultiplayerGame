@@ -72,3 +72,14 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Additional Unreal Engine generated files
+**/Saved/
+**/Intermediate/
+**/DerivedDataCache/
+**/Binaries/
+
+# Visual Studio user settings
+*.user
+*.userosscache
+*.sln.docstates
