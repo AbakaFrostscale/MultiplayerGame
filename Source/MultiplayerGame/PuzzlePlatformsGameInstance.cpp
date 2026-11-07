@@ -39,5 +39,5 @@ void UPuzzlePlatformsGameInstance::Join(const FString& Address)
 	APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (!ensure(PlayerController != nullptr)) return;
 
-	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Relative);
+	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
 }
